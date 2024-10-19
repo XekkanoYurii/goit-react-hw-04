@@ -1,15 +1,14 @@
 import { useState, useEffect } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
-import { getPhotosBySearchValue } from "../services/unsplash-api";
-
-import SearchBar from "./SearchBar/SearchBar";
-import ImageGallery from "./ImageGallery/ImageGallery";
-import Loader from "./Loader/Loader";
-import EmptyResultMessage from "./EmptyResultMessage/EmptyResultMessage";
-import ErrorMessage from "./ErrorMessage/ErrorMessage";
-import LoadMoreButton from "./LoadMoreBtn/LoadMoreBtn";
-import ImageModal from "./ImageModal/ImageModal";
+import { getPhotosBySearchValue } from "./services/unsplash-api.js";
+import SearchBar from "./SearchBar/SearchBar.jsx";
+import ImageGallery from "./ImageGallery/ImageGallery.jsx";
+import Loader from "./Loader/Loader.jsx";
+import EmptyResultMessage from "./EmptyResultMessage/EmptyResultMessage.jsx";
+import ErrorMessage from "./ErrorMessage/ErrorMessage.jsx";
+import LoadMoreButton from "./LoadMoreBtn/LoadMoreBtn.jsx";
+import ImageModal from "./ImageModal/ImageModal.jsx";
 
 import "./App.module.css";
 
